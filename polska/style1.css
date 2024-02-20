@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, rgba(215, 209, 209, 1) 0%, rgba(176, 174, 177, 1) 36%, rgba(207, 205, 209, 1) 57%, rgba(175, 172, 177, 1) 80%, rgba(139, 139, 139, 1) 100%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+logowanie2 {
+    font-family: Staatliches;
+    
+}
+
+.thought {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 9%;
+    width: 90%; /* Adjusted for mobile layout */
+    max-width: 400px; /* Limiting maximum width */
+    margin: 20px 0; /* Added margin for spacing */
+    position: relative; /* Added */
+}
+
+.thought:before,
+.thought:after {
+    content: "";
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+.thought:before {
+    width: 44px;
+    height: 44px;
+    top: -12px;
+    left: 28px;
+    box-shadow: -50px 30px 0 -12px #fff;
+}
+
+.thought:after {
+    bottom: -10px;
+    right: 26px;
+    width: 30px;
+    height: 30px;
+    box-shadow: 40px -34px 0 0 #fff, -28px -6px 0 -2px #fff, -24px 17px 0 -6px #fff, -5px 25px 0 -10px #fff;
+}
+
+footer {
+    background: rgb(29, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+gasz {
+    font-weight: 999;
+    color: black;
+}
+
+logowanie {
+    height: 0.5vh;
+    display: flex;
+    text-align: center;
+    flex-direction: center;
+    font-family: Staatliches;
+    
+}
+
+logowanie1 {
+    position: absolute;
+    top: 150%;
+    left: 0%;
+    font-family: Poiret One;
+    
+}
+
+dane {
+    font-family: Poiret One;
+    
+}
+
+s {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border-radius: 10px;
+    width: 90%; /* Adjusted for mobile layout */
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #000000;
+    font-size: 10px;
+    color: #fff;
+    padding: 10px 20px; /* Adjusted padding */
+    border: none;
+    cursor: pointer;
+    font-family: Bungee;
+}
+
+button:hover {
+    font-family: Bungee;
+    background-color: #28292b;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

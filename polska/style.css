@@ -1,0 +1,109 @@
+body {
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    
+    height: 100vh;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    width:35%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+gasz{
+    font-weight:999;
+    color:black;
+}
+logowanie{
+    font-family:Staatliches;
+    font-size:45px;
+}
+dane{
+    font-family:Poiret One;
+    font-size:25px;
+}
+.container {
+    height:100vh;
+    width:35vw;
+    background-color: none;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.font{
+    position:absolute;
+    top:20%;
+    max-width:45%;
+    left:3%;
+    font-family:Bungee;
+    color:rgb(253, 238, 238);
+    font-size:50px;
+    background:rgba(0, 0, 0, 0.3)    /*  10% opaque green */ ;
+    opacity:1;
+    box-shadow:outset black 0in 0in 5in 0in;
+}
+.container1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:55px;
+    width:65vw;
+    height:100vh;
+    background:url("https://academicresourcecenter.harvard.edu/sites/projects.iq.harvard.edu/files/styles/os_files_xxlarge/public/academicresourcecenter/files/memoryandattention2.jpg?m=1616173772&itok=9LTHfCbh");
+    opacity:0.5;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+body1{
+position:absolute;
+left:20%;
+top:10%;
+}
+button {
+    background-color: #000000;
+    font-size:10px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    Font-family:Bungee;
+}
+
+button:hover {
+    font-family:Bungee;
+    background-color: #28292b;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+gasz1{
+    text-align:center;
+    font-size:Bungee;
+    font-weight:999;
+    font-size:3vw;
+    background:linear-gradient(rgb(200,200,200),rgb(220,220,220));
+    height:100vh;
+    width:5vw;
+}
